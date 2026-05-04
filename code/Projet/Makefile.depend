@@ -1,0 +1,19 @@
+obj/dict.o: src/dict.cpp include/utils.h include/dict.h include/node.h \
+ include/utils.h
+obj/direct_solver.o: src/direct_solver.cpp include/utils.h \
+ include/direct_solver.h include/dict.h include/node.h include/utils.h \
+ include/grid.h include/words_results.h
+obj/grid.o: src/grid.cpp include/grid.h include/utils.h
+obj/instance.o: src/instance.cpp include/instance.h include/grid.h \
+ include/utils.h
+obj/inverse_solver.o: src/inverse_solver.cpp include/inverse_solver.h \
+ include/grid.h include/utils.h include/words_results.h \
+ include/direct_solver.h include/dict.h include/node.h
+obj/main.o: src/main.cpp include/direct_solver.h include/dict.h \
+ include/node.h include/utils.h include/grid.h include/words_results.h \
+ include/inverse_solver.h include/direct_solver.h include/words_results.h \
+ include/instance.h
+obj/node.o: src/node.cpp include/node.h include/utils.h
+obj/utils.o: src/utils.cpp include/utils.h
+obj/words_results.o: src/words_results.cpp include/words_results.h \
+ include/utils.h

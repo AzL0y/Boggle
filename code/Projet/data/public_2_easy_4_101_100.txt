@@ -1,0 +1,7 @@
+101
+100
+4
+P Q A E
+E E U E
+S A U S
+X P C T

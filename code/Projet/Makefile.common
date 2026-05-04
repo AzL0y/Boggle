@@ -1,0 +1,23 @@
+# General variables
+PROJECT_NAME          = R-Boggle
+PROJECT_VERSION       = 1.5.0
+PROJECT_DESCRIPTION   = Direct and inverse Boggle solvers
+PROJECT_LATEST_UPDATE = `date`
+
+# Technical variables
+CXX             = g++
+CXXFLAGS        = -O3 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -g -fopenmp
+LDFLAGS         = -L/usr/lib
+INC_DIR         = include
+LIBS            = -lm
+SRC_DIR         = src
+OBJ_DIR         = obj
+DOC_DIR         = doc
+FILES_EXT       = cpp
+TARGET          = main
+SUBMISSION_DIR  = submission
+SUBMISSION_FILE = submission.zip
+
+# Documentation variables
+HTML_OUTPUT  = YES
+LATEX_OUTPUT = YES
